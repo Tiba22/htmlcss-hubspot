@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tophead .bothead {
+}
+
+.tophead {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  padding: 0 10%;
+}
+
+.bothead {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+  padding: 0 10%;
+
+}
+
+.jumbotron {
+  width: 100%;
+  height: 700px;
+  background-color: #fff5ef;
+  background-image: url(../img/jumbotron.png);
+  background-position: right 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding: 100px 10%;
+}
+
+.lineaverde {
+  width: 100%;
+  height: 90px;
+  background-color: #afebe4;
+  border: 3px solid #33475b;
+  position: relative;
+  border-right: 0;
+  border-left: 0;
+  margin-top: 610px;
+}
+
+.contenitoremain {
+  width: 100%;
+  height: 1500px;
+  background-color: #f4f9fd
+}
+
+.powerful {
+  width: 80%;
+  height: 400px;
+  margin: auto;
+  background-color: red;
+}
+
+.freehub {
+  width: 80%;
+  height: 350px;
+  margin: auto;
+  background-color: white;
+}
+
+.freehub:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.freesx {
+  width: 30%;
+  height: 100%;
+  background-color: green;
+  float: left;
+}
+
+.freedx {
+  width: 70%;
+  height: 100%;
+  background-color: purple;
+  float: left;
+}
+
+.row {
+  width: 80%;
+  height: 700px;
+  margin: 20px auto;
+  background-color: red;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  width: 30%;
+  height: 100%;
+  background-color: blue;
+  float: left;
+}
+
+.two {
+  margin: 0 5%;
+}
+
+.learnandgrow {
+  width: 100%;
+  height: 700px;
+  background-color: #00aab8;
+}
+
+.titlelearn {
+  width: 70%;
+  margin: auto;
+  color: white;
+  padding-top: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.subtitle {
+  width: 80%;
+  margin: auto;
+  color: white;
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tabella {
+  width: 80%;
+  height: 400px;
+  margin: 40px auto;
+  background-color: violet;
+}
+
+.tabella:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tab {
+  width: 25%;
+  height: 50%;
+  float: left;
+  border: 1px solid black;
+}
+
+.contbianco {
+  width: 80%;
+  height: 700px;
+  margin: auto;
+}
+
+.contsopra {
+  width: 100%;
+  height: 40%;
+  margin: auto;
+  background-color: red;
+}
+
+.contsopra::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.soprasx {
+  width: 35%;
+  height: 100%;
+  background-color: blue;
+  float: left;
+}
+
+.sopradx {
+  width: 65%;
+  height: 100%;
+  background-color: green;
+  float: left;
+}
+
+.tabellaloghi {
+  width: 80%;
+  height: 150px;
+  margin: 40px auto;
+  background-color: gold;
+}
+
+.tabella:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tablogo {
+  width: 25%;
+  height: 50%;
+  float: left;
+  border: 1px solid black;
+}
