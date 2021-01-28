@@ -4,22 +4,77 @@
   box-sizing: border-box;
 }
 
-.tophead .bothead {
+body, select, button, a {
+  font-family: 'Ubuntu', sans-serif;
+  color: #32495b;
 }
 
 .tophead {
   width: 100%;
   height: 100px;
-  background-color: blue;
+  background-color: #f4f9fd;
   padding: 0 10%;
+  line-height: 100px;
+  border-bottom: 1px solid #32495b;
+}
+
+.english {
+  border: none;
+  padding-left: 10px;
+  background-color: #f4f9fd;
+  width: 100px;
+  font-size: 15px;
+}
+
+.contactus {
+ margin-left: 20px;
+ border-left: 1px solid black;
+ padding-left: 30px;
+ text-decoration: none;
+}
+
+.fa-search {
+  margin-left: 1000px;
+}
+
+.login {
+  background-color: inherit;
+  color: #fe775a;
+  border: 2px solid #fe775a;
+  margin-left: 30px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.getfree {
+  background-color: #fe775a;
+  color: white;
+  border: 2px solid #fe775a;
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 .bothead {
   width: 100%;
   height: 100px;
-  background-color: green;
   padding: 0 10%;
+  line-height: 100px;
+}
 
+.logoheader {
+  margin-top: 32.5px;
+}
+
+.software, .resources, .partners, .about {
+  border: none;
+  width: 100px;
+  font-size: 15px;
+  margin: 0 15px;
+}
+
+.software {
+  margin-left: 840px;
 }
 
 .jumbotron {
