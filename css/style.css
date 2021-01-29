@@ -114,8 +114,6 @@ body, select, button, a {
   margin: 25px 0;
 }
 
-
-
 .lineaverde {
   width: 100%;
   height: 90px;
@@ -129,15 +127,25 @@ body, select, button, a {
 
 .contenitoremain {
   width: 100%;
-  height: 1500px;
+  height: 1540px;
   background-color: #f4f9fd
 }
 
 .powerful {
   width: 80%;
-  height: 400px;
+  height: 450px;
   margin: auto;
-  background-color: red;
+  text-align: center;
+}
+
+#cubo {
+  width: 300px;
+  margin-top: 20px;
+}
+
+#sottopower {
+  margin: 25px 20%;
+  line-height: 1.4;
 }
 
 .freehub {
@@ -145,6 +153,7 @@ body, select, button, a {
   height: 350px;
   margin: auto;
   background-color: white;
+  border-radius: 20px;
 }
 
 .freehub:after {
@@ -156,22 +165,53 @@ body, select, button, a {
 .freesx {
   width: 30%;
   height: 100%;
-  background-color: green;
   float: left;
+  text-align: center;
+}
+
+#imglibro {
+  width: 300px;
+  margin-top: 15px;
+}
+
+.learnmore {
+  background-color: #fe775a;
+  color: white;
+  border: 2px solid #fe775a;
+  font-size: 15px;
+  padding: 20px 40px;
+  border-radius: 6px;
+  margin: 25px 0;
 }
 
 .freedx {
   width: 70%;
   height: 100%;
-  background-color: purple;
   float: left;
+}
+
+#freecrm {
+  margin: 50px 0;
+}
+
+#sottocrm {
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.dentrocrm {
+  margin-top: 30px;
+  padding: 0 5px 0 20px;
+  color: #fe775a;
+}
+
+.contactinsight {
+  padding-left: 0;
 }
 
 .row {
   width: 80%;
-  height: 700px;
   margin: 20px auto;
-  background-color: red;
 }
 
 .row:after {
@@ -182,9 +222,52 @@ body, select, button, a {
 
 .column {
   width: 30%;
-  height: 100%;
-  background-color: blue;
   float: left;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.imgcolumn {
+  width: 35%;
+  margin: 30px auto;
+  height: 170px;
+}
+
+#salestwo {
+  width: 120%;
+  margin-left: -10px;
+}
+
+.testocolonne {
+  width: 80%;
+  margin: auto;
+  line-height: 1.5;
+}
+
+.pcolonne {
+  margin-top: 30px;
+  font-size: 17px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #32495b;
+}
+
+.sottotitolocolonne {
+  margin-top: 20px;
+}
+
+.spuntecolonne {
+  text-align: left;
+  display: block;
+  font-size: 17px;
+}
+
+.checkcolonne {
+  color: #fe775a;
+}
+
+.spuntecolonne:first-of-type {
+  margin-top: 20px;
 }
 
 .two {
@@ -194,7 +277,7 @@ body, select, button, a {
 .learnandgrow {
   width: 100%;
   height: 700px;
-  background-color: #00aab8;
+  background-image: linear-gradient(45deg,#00a4bd,#00bda5);
 }
 
 .titlelearn {
@@ -202,8 +285,9 @@ body, select, button, a {
   margin: auto;
   color: white;
   padding-top: 30px;
-  font-size: 40px;
+  font-size: 40.5px;
   text-align: center;
+  font-weight: bold;
 }
 
 .subtitle {
