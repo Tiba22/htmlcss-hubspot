@@ -502,7 +502,104 @@ footer {
   background-color: #32495b;
 }
 
-.contenitorefooter {
+.rowfooter {
   width: 80%;
   height: 450px;
+  margin: 30px auto;
+}
+
+.rowfooter:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contlista {
+  width: 25%;
+  height: 450px;
+  float: left;
+}
+
+.contlista > p {
+  margin: 50px 0;
+  font-weight: bold;
+  color: white;
+  font-size: 17px;
+}
+
+.contlista > ul > li {
+  color: #cbd6e2;
+  list-style: none;
+  font-size: 17px;
+  margin: 20px 0;
+}
+
+.contactsupport {
+  background-color: #cbd6e2;
+  color: #32495b;
+  font-size: 15px;
+  padding: 15px 15px;
+  border-radius: 6px;
+  border: 1px solid #cbd6e2;
+}
+
+.loghifooter {
+  color: white;
+  margin: 20px 25px 0 0;
+}
+
+.sottofooter {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
+
+.lingue {
+  height: auto;
+  border-bottom: 1px solid #cbd6e2;
+  padding-bottom: 20px;
+}
+
+.lingue > a {
+  color: #cbd6e2;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.finale {
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  text-align: left;
+}
+
+.finale::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.finalesx {
+  width: 50%;
+  float: left;
+}
+
+.finalesx > img {
+  margin-bottom: 15px;
+}
+
+.finalesx > span {
+  color: white;
+}
+
+.finaledx {
+  width: 50%;
+  float: left;
+  text-align: right;
+}
+
+.finaledx > span {
+  color: white;
+  margin: 0 15px;
 }
