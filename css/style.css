@@ -111,7 +111,7 @@ body, select, button, a {
   font-size: 15px;
   padding: 20px 40px;
   border-radius: 6px;
-  margin: 25px 0;
+  margin: 40px 0;
 }
 
 .lineaverde {
@@ -303,7 +303,6 @@ body, select, button, a {
   width: 80%;
   height: 400px;
   margin: 40px auto;
-  background-color: violet;
 }
 
 .tabella:after {
@@ -316,7 +315,44 @@ body, select, button, a {
   width: 25%;
   height: 50%;
   float: left;
-  border: 1px solid black;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.imgtab {
+  margin-top: 25px;
+}
+
+.titolitab {
+  color: white;
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.sottotitolisub {
+  color: white;
+  margin-top: 20px;
+}
+
+.imgotto {
+  margin-top: 30px;
+}
+
+.uno, .due, .tre, .quattro {
+  border-top: 0;
+}
+
+.cinque, .sei, .sette, .otto {
+  border-bottom: 0;
+}
+
+.uno, .cinque {
+  border-left: 0;
+}
+
+.quattro, .otto {
+  border-right: 0;
 }
 
 .contbianco {
@@ -329,7 +365,6 @@ body, select, button, a {
   width: 100%;
   height: 40%;
   margin: auto;
-  background-color: red;
 }
 
 .contsopra::after {
@@ -341,14 +376,29 @@ body, select, button, a {
 .soprasx {
   width: 35%;
   height: 100%;
-  background-color: blue;
   float: left;
+}
+
+.testisoprasx {
+  width: 40%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.testisoprasx > p {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.testisoprasx > span {
+  line-height: 1.5;
+  font-size: 16px;
 }
 
 .sopradx {
   width: 65%;
   height: 100%;
-  background-color: green;
   float: left;
 }
 
@@ -356,7 +406,6 @@ body, select, button, a {
   width: 80%;
   height: 150px;
   margin: 40px auto;
-  background-color: gold;
 }
 
 .tabella:after {
@@ -369,14 +418,43 @@ body, select, button, a {
   width: 25%;
   height: 50%;
   float: left;
-  border: 1px solid black;
+}
+
+.logo1,.logo2, .logo3, .logo4, .logo5, .logo6, .logo7, .logo8 {
+  width: 160px;
+}
+
+.logo1, .logo2 {
+  margin-top: 25px;
+}
+
+.logo3 {
+  margin-top: 12px;
+}
+
+.logo4 {
+  margin-top: 8px;
+}
+
+.logo5 {
+  margin-top: 8px;
+}
+
+.logo6 {
+  margin-top: 16px;
+}
+
+.logo7 {
+  margin-bottom: 8px;
+}
+
+.logo8 {
+  margin-top: 10px;
 }
 
 .contsotto {
   width: 100%;
-  height: 60%;
   margin: auto;
-  background-color: red;
 }
 
 .contsotto::after {
@@ -388,24 +466,43 @@ body, select, button, a {
 .sottosx {
   width: 50%;
   height: 420px;
-  background-color: orange;
   float: left;
+}
+
+.testosx {
+  width: 73%;
+}
+
+.testosx > p:first-of-type {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.testosx > span {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .sottodx {
   width: 50%;
-  height: 420px;
   float: left;
 }
 
 .fotodx {
-  width: 500px;
+  width: 350px;
   height: auto;
-  padding-left: 20%;
+  margin-left: 200px;
 }
 
 footer {
   width: 100%;
   height: 650px;
   background-color: #32495b;
+}
+
+.contenitorefooter {
+  width: 80%;
+  height: 450px;
 }
