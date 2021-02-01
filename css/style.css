@@ -34,14 +34,14 @@ body, select, button, a {
 }
 
 .fa-search {
-  margin-left: 1000px;
+  margin-left: 65%;
 }
 
 .login {
   background-color: inherit;
   color: #fe775a;
   border: 2px solid #fe775a;
-  margin-left: 30px;
+  margin-left: 2%;
   padding: 10px;
   border-radius: 6px;
 }
@@ -50,7 +50,7 @@ body, select, button, a {
   background-color: #fe775a;
   color: white;
   border: 2px solid #fe775a;
-  margin-left: 15px;
+  margin-left: 2%;
   padding: 10px;
   border-radius: 6px;
 }
@@ -84,8 +84,8 @@ body, select, button, a {
   background-image: url(../img/jumbotron.png);
   background-position: right 0;
   background-repeat: no-repeat;
-  position: absolute;
   padding: 60px 10%;
+  margin-top: 200px;
 }
 
 .testititoli {
@@ -96,6 +96,13 @@ body, select, button, a {
 .titolone {
   font-size: 50px;
   font-weight: bold;
+}
+
+.insieme-header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: auto;
 }
 
 .sottotitolone {
@@ -119,10 +126,9 @@ body, select, button, a {
   height: 90px;
   background-color: #afebe4;
   border: 3px solid #33475b;
-  position: relative;
   border-right: 0;
   border-left: 0;
-  margin-top: 610px;
+  margin-top: -90px;
 }
 
 .contenitoremain {
